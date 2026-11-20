@@ -1,0 +1,1 @@
+import{F as e,G as t}from"./index-CYTm9k5j.js";const s=()=>e.request("get",t("sysDepartment/getDivision")),a=s=>e.request("post",t("sysDepartment/add"),{data:s}),r=s=>e.request("put",t("sysDepartment/edit"),{data:s}),d=s=>e.request("delete",t("sysDepartment/delete"),{data:s});export{a,d,s as g,r as u};
